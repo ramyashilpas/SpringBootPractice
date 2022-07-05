@@ -1,6 +1,6 @@
-package com.example.demo.practice.Controller;
+package com.example.demo.practice.controller;
 
-import com.example.demo.practice.Greeting;
+import com.example.demo.practice.dao.Greeting;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.concurrent.atomic.AtomicLong;
