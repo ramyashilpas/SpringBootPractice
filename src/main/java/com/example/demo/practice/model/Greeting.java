@@ -1,4 +1,4 @@
-package com.example.demo.practice.dao;
+package com.example.demo.practice.model;
 
 public class Greeting {
 

@@ -1,0 +1,18 @@
+[
+  {
+    "firstName": "ramya shilpa",
+    "lastName": "polisetty",
+    "studentId": "585",
+    "email": "testemail@gmail.com",
+    "dateOfBirth": "02/02/1993",
+    "admissionDate": "06/06/2011"
+  },
+  {
+    "firstName": "Charan Teja",
+    "lastName": "Oggu",
+    "studentId": "536",
+    "email": "testemail1@gmail.com",
+    "dateOfBirth": "02/02/1990",
+    "admissionDate": "06/06/2006"
+  }
+]

@@ -2,7 +2,6 @@ package com.example.demo.practice.controller;
 
 import com.example.demo.practice.model.Student;
 import com.example.demo.practice.service.StudentService;
-import org.apache.coyote.Response;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -24,11 +23,11 @@ public class ApplicationController {
 
     @GetMapping
     public ResponseEntity<List<Student>> getStudents() {
-        return new ResponseEntity(studentService.getSutdents(), HttpStatus.OK);
+        return new ResponseEntity(studentService.getStudents(), HttpStatus.OK);
     }
 
     @PostMapping
     public ResponseEntity saveStudent(@RequestBody Student student) {
-        return new ResponseEntity(studentService.saveSutdent(student), HttpStatus.OK);
+        return new ResponseEntity(studentService.saveStudent(student), HttpStatus.OK);
     }
 }

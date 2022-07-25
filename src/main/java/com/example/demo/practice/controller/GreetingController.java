@@ -1,6 +1,6 @@
 package com.example.demo.practice.controller;
 
-import com.example.demo.practice.dao.Greeting;
+import com.example.demo.practice.model.Greeting;
 import com.example.demo.practice.service.GreetingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
