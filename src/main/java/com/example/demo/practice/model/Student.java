@@ -14,7 +14,7 @@ import java.util.Objects;
 @Builder
 @AllArgsConstructor
 @JsonIgnoreProperties
-public class Student implements Serializable {
+public class Student implements Serializable, Comparable {
     private String firstName;
     private String lastName;
     private String studentId;
@@ -33,5 +33,10 @@ public class Student implements Serializable {
     @Override
     public int hashCode() {
         return Objects.hash(firstName, lastName, studentId, email, dateOfBirth, admissionDate);
+    }
+
+    @Override
+    public int compareTo(Object o) {
+        return 0;
     }
 }
